@@ -403,7 +403,7 @@ export default function Addlapangan() {
                         <div className='row' id='divJadwal'>
 
                             {jadwalTampilan.length === 0 ? (
-                                <h3>Isi daftar tim</h3>
+                                <h3>Tampilan jadwal</h3>
                             ) : (
                                 <>
 
