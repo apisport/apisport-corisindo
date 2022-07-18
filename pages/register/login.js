@@ -23,7 +23,7 @@ export default function Login() {
     const { data: data, error } = useSWR(url, fetcher)
 
     if (!data) {
-        return <div>Access denied</div>
+        return <div>Loading...</div>
     } else if (error) {
         return <div>Something went wrong</div>
     }
